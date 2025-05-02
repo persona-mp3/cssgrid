@@ -1,0 +1,87 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:3306           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:7680           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49670          0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:12025        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:12110        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:12119        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:12143        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:12465        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:12563        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:12993        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:12995        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:27275        0.0.0.0:0              LISTENING
+  TCP    192.168.56.1:139       0.0.0.0:0              LISTENING
+  TCP    192.168.150.22:139     0.0.0.0:0              LISTENING
+  TCP    192.168.150.22:31657   192.168.150.25:7680    ESTABLISHED
+  TCP    192.168.150.22:31781   2.17.113.131:443       CLOSE_WAIT
+  TCP    192.168.150.22:31783   2.17.113.130:443       CLOSE_WAIT
+  TCP    192.168.150.22:31792   204.79.197.222:443     CLOSE_WAIT
+  TCP    192.168.150.22:31812   23.216.155.75:443      CLOSE_WAIT
+  TCP    192.168.150.22:31817   34.98.110.65:443       ESTABLISHED
+  TCP    192.168.150.22:31820   23.216.155.64:80       TIME_WAIT
+  TCP    192.168.150.22:49693   20.90.153.243:443      ESTABLISHED
+  TCP    192.168.150.22:49700   35.230.86.105:7500     ESTABLISHED
+  TCP    192.168.150.22:52596   20.223.36.55:443       CLOSE_WAIT
+  TCP    [::]:135               [::]:0                 LISTENING
+  TCP    [::]:445               [::]:0                 LISTENING
+  TCP    [::]:7680              [::]:0                 LISTENING
+  TCP    [::]:49664             [::]:0                 LISTENING
+  TCP    [::]:49665             [::]:0                 LISTENING
+  TCP    [::]:49666             [::]:0                 LISTENING
+  TCP    [::]:49667             [::]:0                 LISTENING
+  TCP    [::]:49668             [::]:0                 LISTENING
+  TCP    [::]:49670             [::]:0                 LISTENING
+  TCP    [::1]:12025            [::]:0                 LISTENING
+  TCP    [::1]:12110            [::]:0                 LISTENING
+  TCP    [::1]:12119            [::]:0                 LISTENING
+  TCP    [::1]:12143            [::]:0                 LISTENING
+  TCP    [::1]:12465            [::]:0                 LISTENING
+  TCP    [::1]:12563            [::]:0                 LISTENING
+  TCP    [::1]:12993            [::]:0                 LISTENING
+  TCP    [::1]:12995            [::]:0                 LISTENING
+  TCP    [::1]:27275            [::]:0                 LISTENING
+  TCP    [::1]:49669            [::]:0                 LISTENING
+  UDP    0.0.0.0:123            *:*                    
+  UDP    0.0.0.0:500            *:*                    
+  UDP    0.0.0.0:4500           *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:50886          *:*                    
+  UDP    0.0.0.0:57990          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:49635        127.0.0.1:49635        
+  UDP    127.0.0.1:50167        *:*                    
+  UDP    192.168.56.1:137       *:*                    
+  UDP    192.168.56.1:138       *:*                    
+  UDP    192.168.56.1:1900      *:*                    
+  UDP    192.168.56.1:50165     *:*                    
+  UDP    192.168.150.22:137     *:*                    
+  UDP    192.168.150.22:138     *:*                    
+  UDP    192.168.150.22:1900    *:*                    
+  UDP    192.168.150.22:50166   *:*                    
+  UDP    [::]:123               *:*                    
+  UDP    [::]:500               *:*                    
+  UDP    [::]:4500              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:50886             *:*                    
+  UDP    [::]:57990             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:50164            *:*                    
+  UDP    [fe80::6dfd:8e4f:1d70:8c67%6]:1900  *:*                    
+  UDP    [fe80::6dfd:8e4f:1d70:8c67%6]:50163  *:*                    
+  UDP    [fe80::b94e:f6fc:bc82:c297%10]:1900  *:*                    
+  UDP    [fe80::b94e:f6fc:bc82:c297%10]:50162  *:*                    

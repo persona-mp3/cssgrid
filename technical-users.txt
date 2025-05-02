@@ -1,0 +1,27 @@
+As regards to the technical audience, I had made sure they recieved a seperate kind of form, tailored to them. I had made a seperate form for them. I first started by expalining the System Architecture to them , including the backend server, database schema and reasons for change. I had asked an experienced backend developer what they would approcah to find a similar but more robust solution than mine. They had advised that it would have been better to make use of two different databases, a NoSQL one ie Firebase & Superbase together with the MySQL used. So I can explicitly control user authentication locally on my machine, while the cloud database mainly stores miscellanous data like extra bookings, managing concurrent possible states when it comes to scaling and more. This is a reasonable adivce and is clearly backedup as this was also one of the issues I tried addressing as stated in my Changelog.pdf file, by making a dedicated section in the MySQL database, to hanlde miscellanous data and state that can easily be retrieved.
+
+These were the main questions asked to this subset of audience, and this were their responses on the Techical Form:
+
+1. How scalable is the current prototype
+2. How would you rate the integration process with other systems (Monolith or microservices)
+3. What other possible test suites could be added?
+
+All the above questions recieved exterem positive feeback as they had answered there were little to no issues with integration and scalability, the performance of the system were blazingly fast, otherwise "Excellent, page load times very quick". No other test suites were recommended from the audience I was able to interact with but there should have been more testing on the code, as compared the overall system testing I had done in "v1/tests/endpoints.tests.js". Example:
+	1. Testing the hashing function: Is a users password correctly hashed before saving to the database? It did hash their passwords, but for future developers it would be easy for them to just navigate the test for that particulat function instead of re-writing it.
+	2. More testing on the VSCode live server has it raised minor issues, it would be better to move everything onto the same server, ie All pages are on rendered by the Express Server.
+
+Other data responses drawn from the questionnaires include:
+1. INDUSTRY STANDARD PRACTICES
+	Question: "How does the source code go well with standard development practices?"
+
+	All agreed that the code practices I used were very good as the code was self descriptive, the code was well modularised avoid overabstraction and constand manipulation of global variables, meaningful comments. However, I would say that more documentation on the setup processs would do, as it is possible a newly hired developer into the company might not really know how to set up the environment on their device whether they are on a Linux based Operating system, or impleneted Docker to help with the configuration process, also including debugging issues. I had a developer who adviced that when I'm about to deploy the prototype, I should make avoid logging activites into the sever termainal but rather, into a text file, that way, it is much cleaner and safer, and well documented.
+
+
+2. SERVER RESPONSE
+	Question: "The current prototype makes use of SSR, and server reponse time is < 12ms, what do you think can be improved?"
+
+	These was a key response that was recieved:
+		"Maybe using state variable or using a framework, ie Svelte or Next.js could improve the speed of the prototype"
+
+	After considering and thinking about their response, I came to the conclusion that including a framework is a good idea. But the frameworks provided by this user are frameworks that are met for large scale Front-end applications and not mainly for SSR (Server Side Rendering), but instead, integrating HTMX, which is also a framework that allows for extremely quick page load times could be considered, including ASTRO which is a framework that is built of SSR concept. However, the end product requested by the company did not need extreme Reactivity like how popular apps like Twitter, Instagram would need. This can infact, reduce page load tspeed, and cause significant bounce rates from the website. Svetle however is a choice that can be considered, but for a product that does not require intense reactivity, but just regular API calls, HTMX and ASTRO could greatly help. But in efforts made, I had ensured that the Stylesheets were minified by a compiler ie make it quicker for the website to understand and read, and made sure that the server rendered EJS templates instead of regular HTML. And also using CDN instead of local npm packages ie flatpickr, Chartjs. The system architecure was thorogly planned out in the beginning of the project and has reasons for specific choices. 
+

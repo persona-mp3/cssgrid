@@ -1,0 +1,38 @@
+For the gathered feedback from non-technical users, I was able to observe key findings, I followed the plan that was previously describe. I had demonstrated how the prototype worked, it's purpose and current key working features. Afer I had encouraged them to try it out themseleves and work around with the prototype.A lot of postive results were gotten from this target audienece and also discovered some key findings. Below is a summary of the quetions asked:
+
+1. How would you rate the layout of the website?
+2. How did the overall aesthetics of the website appeal to you?
+3. How were the feedback error messsages provided? were they confusing and vague or easy to understand
+4. I also asked them on the quiz how the easy it was interacting with the main features, including navigation, accont registration, appointment booking and accessing accounts.
+5. I concluded the form asking them what features they would like to see in the next iteration of the website.
+
+I finally had conversations with most of them and got to know what they liked the most, and these were most of their reponses:
+ "I really like how the website is not cluttered, everything is understandable and minimal"
+ "The best section, was towards the end of the carbon footprint calculation, I was informed about my carbon footprint score in an interactive way, with the graphs and a little advice by the side"
+
+ Other data responses drawn from the form include:
+ 1. APPOINTMENT REGISTRATION:
+ 	About 25% of the users found it difficult registering their accounts. This was mainly a systems bug thaty 	 would time out the connection if left idle for over 30 minutes, I advice that to address this issue, I pr	  propose that a configured TLS handshake could be integrated as this also ties closely with browsers CROSS	   ORIGIN POLICIES. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS for more information 	    on CORS as a technical developer. This often lead me to referesh the VSCode Live Server Extension, as not        nothing was wrong with the Express Server. This was not a major issue as it was quickly  addressed. The o	      other 75% of the users found it very easy to use.
+
+
+2. CARBON FOOTPRINT RESULTS:
+	Question1: "Were you able to see your results after you calculated your carbon footprint"
+	Question2: "How would you exprience calculating your carbon footprint"
+
+	An average of 5 star rating was given to Question1, as I made sure the final total of the user was clearly displayed and easy for them understand supporting it with a graph analysis.This was also the same resuilt for wquestion 2 as all users enjoyed the feature. However, I decided that to improve it, it would be greatly benegficial to allow users to download their report and save it to their device, this can be looked forward to in the next iteration of the prototype.
+
+
+3. FEATURE RECOMMENDATIONS:
+	Question: "What would you change about the website or what feature would you want to see next"
+	While most of them werte satisfied, I had gotten two key responses:
+		"Maybe, make it so the password has requirements"
+		"I woudln't change anything in particular however we could probably try and go slightly into more detail with all the information provided"
+
+	This is a key insight as it points to a minute hole in User Experience, which is a key factor in any digital space. To address this, the HTML and EJS files reponsible for rendering this content should have password reuquirements stated by the side of the form element.
+
+	Also, regarding the second response, I figured that a dedicated section to products and services offered by Rolsa Technologies would suffice, as in this prototype version, I had just made a summary of the services to provided without explicitly explaining them. 
+
+The website recieved an overall average rating of 4.75 for User Experience which  signifies a great prototype to build upon, but needs minor adjustments to make it a 5.00 rating overall
+
+
+
