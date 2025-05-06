@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <script src="../js/quiz.js" defer type="module" typr="text/js"></script>
+    <title>Carbon Calculator</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-wrapper">
+            <h2 class="logo">RolsaTech</h2>
+            
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="./login.html" class="sec-link">Log in</a>
+                <a href="./booking.html" class="cta-link">Book Meeting</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <section class="quiz-section">
+            <div class="quiz-wrapper">
+                <div class="progress-wrapper" id="progressWrapper">
+
+                </div>
+
+
+
+                <div class="question-wrapper" id="questionWrapper">
+                    <div class="topic">transporation</div>
+                    <div class="question">How much distance do you spend commuting daily</div>
+                </div>
+
+
+                <div class="answer-wrapper" id="answer-wrapper">
+
+
+                </div>
+                <button class="back-btn sec-btn">Back</button>
+            </div>
+
+
+        </section>
+
+
+
+        <section class="results">
+            <div class="result">
+                <p class="figure"></p>
+
+                <p class="advice">
+                    
+                </P>
+            </div>
+
+
+            <div class="chart-container">
+                <canvas id="myCanvas"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

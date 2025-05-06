@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../css/booking.css"> -->
+    <link rel="stylesheet" href="/base.css">
+    <link rel="stylesheet" href="/bookingPage.css">
+    <script defer type="module" src="/booking.js"></script>
+    <title>Booking Page</title>
+</head>
+<body>
+    
+    
+    
+    <nav>
+        <div class="nav-wrapper">
+            <p class="logo">RolsaTech</p>
+
+            <div class="nav-links">
+                <a href="dashboard">Home</a>
+                <!-- <a href="./quiz.html">Carbon Calculator</a> -->
+                <a href="#" class="sec-link">Log out</a>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    <main>
+        <p class="feedback">Booked Successfully</p> 
+        
+        <div class="info">
+            <h2>Schedule Meetings</h2>
+            <p class="information">
+                You can book a meeting with us online, with just the use of your email address for us to contact you.
+                Get in touch with one of our staff for online on one-to-one consultation meetings.
+            </p>
+        </div>
+        
+        <form class="booking-form">
+            
+            <div class="form-control double__form">
+                <div class="sub-form">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" value="Mayer">
+                    
+                </div>
+                
+                <div class="sub-form">
+                    
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" value="John">
+                    
+                </div>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email Adress</label>
+                <input type="text" name="email" id="email" value="oldnagoya@gmail.com">
+            </div>    
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" value="aphextwin@gmail.com" required>
+            </div>    
+
+            <div class="form-control">
+                <label for="phone">Phone (optional)</label>
+                <input type="text" name="phone" id="phone" value="0803385634">
+            </div>    
+            
+            
+            <div class="form-control double__form">
+                <div class="sub-form">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address" value="23 Old Nagoya Lane">
+                </div>
+                
+                
+                <div class="sub-form">
+                    <label for="postcode">Postcode</label>
+                    <input type="text" name="postcode" id="postcode" value="FY2 3FE">
+                    
+                </div>
+            </div>
+            
+            <div class="form-control">
+                <label for="bookingType">Booking Type</label>
+                <select name="bookingType" id="bookingType" required>
+                    <option value=" ">Please select your booking</option>
+                    
+                    <option value="Consultation">Consultation</option>
+                    <option value="Installation">Installation</option>
+                    <option value="Other">Other</option>
+                </select>
+                <!-- <label for="postcode">Postcode</label>
+                <input type="text" name="postcode" id="postcode" value="FY2 3FE"> -->
+            </div>
+            
+            
+            
+            <div class="form-control double__form">
+                <div class="sub-form">
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date" placeholder="Choose Date" class="date-input">
+                    
+                </div>
+                
+                
+                <div class="sub-form">
+                    <label for="time">Time</label>
+                    <input type="time" name="time" id="time" value="12:30">
+   
+                </div>
+                
+            </div>
+            
+            <button type="submit">Book Meeting</button>
+            
+        </form>
+    </main>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>  
+
+</body>
+</html>

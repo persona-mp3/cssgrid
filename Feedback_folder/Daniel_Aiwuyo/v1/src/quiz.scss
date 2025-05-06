@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$transition: all ease 0.5s;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a {
+    font-size: 1.25rem;
+    padding: .4rem;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    
+    
+    .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        padding: .6rem;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+.nav-wrapper .logo {
+    font-size: 1.89rem;
+    font-weight:500; 
+}
+.nav-wrapper .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    // background-color: lightcoral;
+    margin: 3% auto;;
+}
+
+
+@mixin flexColumn() {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.quiz-section {
+    @include flexColumn();
+    // background-color: lightblue;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;     
+}
+
+
+
+.quiz-wrapper {
+    @include flexColumn();
+    
+    
+    .progress-wrapper {
+        display: flex;
+        flex-direction: row;
+        // background-color: yellow;
+        // padding: .8rem;
+        gap: .5rem;
+        justify-content: space-between;
+        width: 100%;;
+        
+        span {
+            width: 50%;
+            height: .29rem;
+            background-color: grey;
+            border-radius: .6rem;   
+        }
+    }
+}
+
+
+
+
+.seen {
+    background-color: rgb(42, 230, 199)  !important;
+}
+
+
+
+
+
+.question-wrapper {
+    @include flexColumn();
+    gap: .2rem;
+    
+    .topic {
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        color: grey;    
+        font-weight: 600;
+    };
+    
+    
+    .question {
+        font-size: 1.35rem;
+    }
+}
+
+
+
+.answer-wrapper {
+    @include flexColumn();
+    
+    
+    button {
+        width: 100%;
+        padding: .6rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        color: black;
+        border: 1px solid black;
+        border-radius: .4rem;
+        font-size: 1.25rem;
+        background-color: white;
+        transition: $transition;
+    }
+    
+    
+    button:hover {
+        background-color: black;
+        cursor: pointer;
+        border: 1px solid transparent;
+        transition: $transition;
+        
+    }
+}
+
+
+.back-btn {
+    margin-top: 2%;
+    align-self: flex-start;
+    background-color: white;
+    font-size: 1.25rem;
+    border-radius: 100rem;;
+    padding: .6rem;
+    padding-left: 1.45rem;
+    padding-right: 1.45rem;
+    // border: 2px solid lightcoral;
+}
+
+.quiz-section .sec-btn {
+    margin-top: 2% ;
+    margin-left: 2%
+}
+
+
+
+.results {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: .8rem;
+    
+    .result {
+        width: 40%;
+    }
+    
+    .chart-container {
+        width: 60%;
+        
+        
+        
+        #myCanvas{
+            width: 100%;
+        }
+        
+        #myCanvas:hover {
+            cursor: crosshair;
+        }
+    }
+}
+
+
+.result .figure {
+    font-size: 26rem;
+}
+
+.advice {
+    font-size: 1.45rem;
+}
+
+@import '_components'; 
+@import 'base';
