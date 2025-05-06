@@ -1,0 +1,11 @@
+In summary, both audiences were satisfied with the prototype as it recieved an average of 4.75 ratings. While they were only a handful of users who had used a similar software similar to this, most of them after interacting with them said this was their first time, especially knowing about "Carbon footprint". To make sure that the next iteration cycle gets better results, these are a list of future improvments that can be proposed and further looked into by future developers:
+
+1. More testing coverage on individual components of the system.
+2. Adding password requirements for users to give a better User Experience
+3. Make use of two or more database systems, Cloud storage and local storage, ie Supabase/Firebase & MySQL for more data redundancy, scalability and storage.
+4. Introducing new frameworks to help with system performace and other metrics ie SEO optimization, reduced lagging effects and adaptable system architecture. These frameworks include ASTRO, HTMX, Svelte. 
+5. Introducing a new backend server built in Golang, if neccessary ( if more scalability and performance is needed)
+6. Using self contained programs to make sure that other engineers can carry out testing and other operations with minimal setup required, ie using Docker or Kurbentes
+7. More documentation on the backend setup as different developers might have a different setup tailored to their developement purposes.
+8. Incorporating a logging tool for all server activities and backup
+9. Integrating cookies for http only cookies as  session persistence: ie to identify who a user is and logging them out appropriately and more securely.
