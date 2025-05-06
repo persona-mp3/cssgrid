@@ -1,0 +1,16 @@
+
+
+
+
+
+To configure the database to grant access run these commnads in mySQL terminal accordingly;
+
+mysql> create user 'vscode1'@'localhost' identified by 'password';
+    
+mysql> grant all privileges on *.* to 'vscode1'@'localhost';
+
+In both instances, the server should respond with 
+ >> Query OK, O rows affected,
+
+
+

@@ -1,0 +1,44 @@
+.bookings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 80%;
+
+
+    #userName {
+        font-size: 2rem;
+    }
+    
+    p{
+        font-size: 1.35rem;
+        font-weight: 300;
+    }
+}
+
+.booking-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: .8rem;
+    background-color: rgb(156, 170, 184);
+    height: 20rem;
+    justify-content: space-between;
+    max-width: 40rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.welcome-header {
+    font-size: 7rem;
+    margin: 0 auto;
+    width: 100%;
+
+    
+    p {
+        width: fit-content
+    }
+}

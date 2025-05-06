@@ -1,0 +1,96 @@
+$cta-h-color: rgb(16, 141, 199);
+$color: rgb(16, 41, 16);
+$transition: all ease 0.5s;
+a {
+    text-decoration: none;
+    font-size: 1.35rem;
+    padding: .8rem;
+     padding-left: 1.51rem;
+    padding-right: 1.41rem;
+    position: relative;
+    color: $color;
+    font-weight: 400;
+    transition: all ease 0.5s;
+}
+
+a:hover {
+    cursor: pointer;
+    transition: $transition;
+}
+
+a::before {
+    content: " ";
+    position: absolute;
+    top: 78%;
+    width: 0%;
+    height: .07rem;
+    background-color: rgb(17, 17, 17);
+    transition: $transition;
+}
+
+a:hover::before {
+    width: 70%;
+    transition: $transition;
+}
+
+button, .sec-link{
+    background-color: white;
+    border: 1px solid black;
+    padding: .4rem;;
+    padding-left: 1.46rem;;
+    padding-right: 1.46rem;;
+    text-align: center;
+    border-radius: 100rem;
+    width: fit-content;
+    font-size: 1.36rem;
+    transition: all ease 0.5s;
+}
+
+button:hover, .sec-link:hover {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.cta-btn, .cta-link {
+    padding: .6rem;
+    border-radius: 100rem;
+    padding-left: 1.51rem;
+    padding-right: 1.41rem;
+    background-color: rgb(104, 218, 119);
+    align-self: center;
+    color: $color;
+    transition: all ease 0.5s,
+
+}
+
+.cta-link::before, .sec-link::before{
+    all: unset;
+}
+
+.cta-btn:hover, .cta-link:hover {
+    background-color: $cta-h-color;
+    color: white;
+    cursor: pointer;
+    transition: $transition;
+}
+
+
+input {
+    all: unset;
+    padding: .6rem;
+    background-color: white;
+    color: $color;
+    border-radius: .3rem;
+    transition: $transition;
+    border: 1px solid rgb(17, 17, 17);
+}
+
+input:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    transition:$transition;
+}
+
+

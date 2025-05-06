@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+    box-shadow:.01rem .01rem .1rem grey;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    z-index: 9999999;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    margin: 0 auto;
+    // padding: .4rem;
+    align-self: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    gap: 1.35rem;
+}

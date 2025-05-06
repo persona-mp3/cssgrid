@@ -1,0 +1,13 @@
+SERVER.JS
+MORGAN is a dev dependency that logs out the activity of the sever for each and every requests showing the 
+HTTP Type, status, code, time and more
+
+
+
+
+CORS
+Web browsers do not allow websites to access a users laptop unless permisson has been granted. It then sends a 
+Cross Origin Request Policy which also includes local ports and otherwise
+Setting the ORIGN allows the the liveServer on VSCode to make requests, to port 8080, 
+where the Express Server is listening on
+
