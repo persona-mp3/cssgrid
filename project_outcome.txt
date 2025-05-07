@@ -1,0 +1,24 @@
+Rolsa technologies requested a digital solution that provided the following perks to their customers:
+1. Allow users to book appointements
+2. Allow users to calculate their carbon footprint
+3. Users should be able to get advice on how to manage their carbon footprint
+4. Users can receive updates on latest market trends.
+
+The developed prototype had met all the above requirements stated, as 
+i.   It had a section where users could book appointments
+ii.  The users who I had gotten were able to calculate their carbon footprint and recieve results clearly stated in understandable formats
+iii. After they calculated their carbon footprint, they were also given an analytic graph and advice based on their final total
+iv. Users were able to create accounts and log in
+v. The prototype portrayed the goal of the business well, as the users got to see what products and services Rolsa technologies offered.
+
+While the current prototype was not a full working version, from the 9 participants I was able to gather, they all made positive feedback on the prototype, explaining how the user layout fell intuitive and easy for them to navigate, users who had vision impairments, were able to easily adapt ie increase the size of the text, use darker lighting and more. These led to an average of a 5-star rating in User Experience and User Interface.
+
+Other parts of the audience ie non-technical were able to point out places that could be improved for better iterations like a dedicated E-commerce page, extra database capabailities, more testing coverage and containeriazation of the software, so set up could be easy for other platforms runnning on Linux or other Operating systems. While I stated that the final version of the working prototype will be a  Progressive Web App, making use of dynamic caching and service workers to support offline features, they are still within the scope, and hope to be integrated into future versions.
+
+I also made sure I adhered to WCAGG principles and respected Copyrights from all the images used and other icons, including third party API's as the API's were open source and could be used by anybody:
+- Express
+- Flatpickr
+- Chartjs
+- Images and icons were gotten from Bootstrap, COSMOS and LummiAI
+
+With all these considerations, I was able to develop an MVP, Minimum Viable Product, that can also be maintained by third party engineers.
